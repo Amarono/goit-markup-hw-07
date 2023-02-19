@@ -32,14 +32,17 @@
           </ul>
         </nav>
         <!-- Navigation -->
-        <ul class="contact-list">
-          <li><a class="link contact-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-          <li
+        <ul class="contact-resp contact-list">
+          <li class="item"
+            ><a class="link contact-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li
+          >
+          <li class="item"
             ><a class="link contact-item" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             ></li
           >
         </ul>
+        <!-- Burger-btn -->
         <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
           <svg
             width="24"
@@ -122,10 +125,10 @@
         </div>
       </section>
       <!-- /** |============================ | What are we doing |============================ */ -->
-      <section class="section-work">
-        <div class="container">
-          <h2 class="section-title">What are we doing</h2>
-          <ul class="work-list">
+      <section class="section-work section-about">
+        <div class="container about-cont">
+          <h2 class="section-title about-title">What are we doing</h2>
+          <ul class="work-list about-list">
             <li>
               <img src="./images/hw-1-img-1.jpg" alt="stats at tablet" width="360" height="300" />
             </li>
@@ -618,6 +621,7 @@
         </form>
       </div>
     </div>
+    <!-- MOBILE-MENU-burger -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg
@@ -636,10 +640,71 @@
       </button>
 
       <ul class="mobile-menu">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Products</a></li>
-        <li><a href="" class="link">Contacts</a></li>
-        <li><a href="" class="link">Career</a></li>
+        <li class="item"><a href="./index.html" class="link-burger">Studio</a></li>
+        <li class="item">
+          <a href="./portfolio.html" class="link-burger">Portfolio</a>
+        </li>
+        <li class="item"><a href="" class="link-burger">Contacts</a></li>
+      </ul>
+
+      <ul class="mobile-menu-cont">
+        <li class="item">
+          <a class="link-burger" href="tel:">+11 (000) 111-11-11</a>
+        </li>
+        <li class="item">
+          <a class="link-burger" href="mailto:">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-link list">
+        <li class="social-menu-item item">
+          <a
+            class="social-mobile-menu link-burger"
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener norefferer"
+          >
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-menu-item item">
+          <a
+            class="social-mobile-menu link-burger"
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener norefferer"
+          >
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-menu-item item">
+          <a
+            class="social-mobile-menu link-burger"
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener norefferer"
+          >
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-menu-item item">
+          <a
+            class="social-mobile-menu link-burger"
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener norefferer"
+          >
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
     </div>
     <script
@@ -648,7 +713,7 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script src="./js/modal.js"></script>
     <script defer src="js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
