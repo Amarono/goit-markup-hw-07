@@ -1141,6 +1141,14 @@ img {
 .mobile-menu .link-burger:focus {
   color: var(--pressed-state);
 }
+.mobile-menu-cont .link-burger:hover,
+.mobile-menu-cont .link-burger:focus {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--primary-brand);
+}
 
 .mobile-menu .item + .item {
   margin-top: 40px;
@@ -1165,15 +1173,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
-}
-
-.mobile-menu-cont .link:hover,
-.mobile-menu-cont .link:focus {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  color: var(--primary-brand);
 }
 
 .mobile-menu-cont > .item + .item {
