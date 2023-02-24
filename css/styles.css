@@ -1149,6 +1149,8 @@ a {
   position: fixed;
   top: 0;
   left: 0;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
@@ -1378,6 +1380,7 @@ a {
     width: 100%;
   }
 }
+
 /* MOBILE */
 .menu-toggle {
   display: flex;
@@ -1513,6 +1516,7 @@ a {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--primary-brand);
+  transition: var(--timing-function);
 }
 
 .mobile-menu-cont > .item + .item {
