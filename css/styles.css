@@ -251,7 +251,7 @@ a {
   margin: 0 auto;
   padding: 112px 0;
   background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/bg_mob@1x.webp);
+    url(../images/hw7background/bg_mob@1x.webp);
   background-size: cover;
   text-align: center;
 }
@@ -259,7 +259,7 @@ a {
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-section {
     background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/bg_mob@2x.webp);
+      url(../images/hw7background/bg_mob@2x.webp);
   }
 }
 
